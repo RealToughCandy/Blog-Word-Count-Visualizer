@@ -5,8 +5,10 @@ body {
 
 .boxer {
     height:100px;
+    display: block;
     width: 300px;
     font-size:14pt;
+    margin: 5%;
 }
 
 #demo {
