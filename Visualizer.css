@@ -1,0 +1,16 @@
+body {
+  background-image: url("https://pbs.twimg.com/media/DAhnMwLW0AAlIKA.jpg");
+  background-size: cover;
+}
+
+.boxer {
+    height:100px;
+    font-size:14pt;
+}
+
+#demo {
+  font-size: 18px;
+  margin: 5% 20% 15% 20%;
+  font-family: arial;
+
+}
