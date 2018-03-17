@@ -4,7 +4,7 @@ function truncate(str, no_words) {
     return str.split(" ").splice(0, no_words).join(" ");
 }
 
-function myFunction() {
+function create_output() {
     var x = document.getElementById("id1").value;
     document.getElementById("demo").innerHTML = (truncate(babble, x));
 }
