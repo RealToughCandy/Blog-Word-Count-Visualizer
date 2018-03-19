@@ -10,7 +10,7 @@ function truncate(str, no_words) {
 }
 
 //Displays output on page, generated after user submits a number.
-function visualizeWords() {
+function visibleWords() {
     var grabInput = document.getElementById("id1").value;
     document.getElementById("demo").innerHTML = (truncate(bigString, grabInput));
 }
