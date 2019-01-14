@@ -9,6 +9,7 @@ function truncate(str, no_words) {
     return str.split(" ").splice(0, no_words).join(" ");
 }
 
+
 //Displays output on page, generated after user submits a number.
 function visibleWords() {
     var grabInput = document.getElementById("id1").value;
